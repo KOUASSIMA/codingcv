@@ -1,0 +1,40 @@
+.avatar-grand{
+	width: 150px;
+	border-radius: 80%;
+	border: 1px solid white;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+.btn-medium{
+		
+		background:salmon;
+		padding: 15px 35px ;
+		border-radius: 50px;
+        font-weight: lighter;
+        box-shadow: 0 10px 12px rgba(25,30,60,0.8);
+	   
+
+ }
+
+ .h5{
+	text-align: right;	
+ }
+
+
+
+
+  .navbar1-default
+{	
+	background-color:#CCD1D1;
+	color:black;
+	margin-top:20px;
+	font-size: 15px;
+	padding: 15px;
+}
+ .navbar2-default{
+ 	background-color:#FA8072;
+	color:black;
+	margin-top:20px;
+	font-size: 15px;
+	padding: 15px;
+}
+
