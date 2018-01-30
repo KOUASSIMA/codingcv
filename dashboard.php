@@ -57,7 +57,7 @@
                 			
                 			<ol>
 								<h4><a href="modifierpp.php" >Modifierprofil</a><br><br>
-								<a href="cv.php?id=<?php echo $_GET['id']; ?>">Creer cv</a><br><br>
+								<a href="cv.php">Creer cv</a><br><br>
 								<a href="consultercv.php?id=<?php echo $_GET['id']; ?>">Afficher votre cv</a><br><br>
 								<a href="experiences.php?id=<?php echo $_GET['id']; ?>">Ajouter experience</a><br><br>
 								<a href="diplomes.php?id=<?php echo $_GET['id']; ?>">Ajouter diplome</a><br><br>

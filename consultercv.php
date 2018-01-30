@@ -84,7 +84,7 @@
 				<table>
 				<?php
 						$cod=1;
-						$sql="SELECT o.*, datedeb, datefin, poste FROM codeuses o INNER JOIN experiences e ON o.id=e.id_codeuses WHERE o.id=".$_GET['id'];
+						$sql="SELECT o.*, datedebut, datefin, poste FROM codeuses o INNER JOIN experiences e ON o.id=e.id_codeuses WHERE o.id=".$_GET['id'];
 						//$sql="SELECT * FROM codeuses";
 						$res=mysqli_query($link, $sql);
 						while($data=mysqli_fetch_array($res)){?>
